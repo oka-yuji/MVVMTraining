@@ -8,11 +8,11 @@
 import Foundation
 
 struct CalculateModel{
-    var num1:Int
-    var num2:Int
-    var sum:Int
+   private var num1:Int
+   private var num2:Int
+   private var multiplication:Int
 }
 func calculate(num1:Int,num2:Int) -> Int {
-    let sum = num1 * num2
-    return sum
+    let multiplication = num1 * num2
+    return multiplication
 }

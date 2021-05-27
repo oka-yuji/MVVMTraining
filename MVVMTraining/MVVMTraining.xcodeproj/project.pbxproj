@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		287D08CF265BE1B4003269C0 /* CalcilateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D08CE265BE1B4003269C0 /* CalcilateView.swift */; };
+		287D08CF265BE1B4003269C0 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D08CE265BE1B4003269C0 /* CalculateView.swift */; };
 		287D08D1265CE1D7003269C0 /* CalculateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D08D0265CE1D7003269C0 /* CalculateModel.swift */; };
 		287D08D3265CE528003269C0 /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287D08D2265CE528003269C0 /* CalculateViewModel.swift */; };
 		28ACA6C6263EEBDE0068F46A /* MVVMTrainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ACA6C5263EEBDE0068F46A /* MVVMTrainingApp.swift */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		287D08CE265BE1B4003269C0 /* CalcilateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcilateView.swift; sourceTree = "<group>"; };
+		287D08CE265BE1B4003269C0 /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
 		287D08D0265CE1D7003269C0 /* CalculateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateModel.swift; sourceTree = "<group>"; };
 		287D08D2265CE528003269C0 /* CalculateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
 		28ACA6C2263EEBDE0068F46A /* MVVMTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,7 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				28ACA6F0263EEC140068F46A /* HomeView.swift */,
-				287D08CE265BE1B4003269C0 /* CalcilateView.swift */,
+				287D08CE265BE1B4003269C0 /* CalculateView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 				28ACA6C6263EEBDE0068F46A /* MVVMTrainingApp.swift in Sources */,
 				287D08D3265CE528003269C0 /* CalculateViewModel.swift in Sources */,
 				287D08D1265CE1D7003269C0 /* CalculateModel.swift in Sources */,
-				287D08CF265BE1B4003269C0 /* CalcilateView.swift in Sources */,
+				287D08CF265BE1B4003269C0 /* CalculateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
