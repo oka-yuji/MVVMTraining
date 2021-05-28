@@ -12,6 +12,7 @@ struct CalculateModel{
    private var num2:Int
    private var multiplication:Int
 }
+///掛け算をするfunc num1,num2はInt型
 func calculate(num1:Int,num2:Int) -> Int {
     let multiplication = num1 * num2
     return multiplication

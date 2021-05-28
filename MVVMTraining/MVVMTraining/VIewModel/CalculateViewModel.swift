@@ -10,6 +10,7 @@ import SwiftUI
 class CalculateViewModel: ObservableObject{
     @Published var fetchValue1 = ""
     @Published var fetchValue2 = ""
+    //入力されたStringをIntに変換し、計算した結果をStringに返します
     var resrlt: String {
         let num1 = Int(fetchValue1) ?? 0
         let num2 = Int(fetchValue2) ?? 0

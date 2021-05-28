@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CalculateView: View {
     @State private var sumValue = ""
-    @ObservedObject var calculateViewModel = CalculateViewModel()
+    @ObservedObject private var calculateViewModel = CalculateViewModel()
     var body: some View {
         VStack(alignment: .leading, spacing: 10.0){
             // タイトル、説明文
